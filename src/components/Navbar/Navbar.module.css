@@ -17,6 +17,10 @@
     color: var(--color-text);
 }
 
+.icon {
+    color: white;
+    font-size: xx-large;
+}
 
 .menuBtn {
     display: none;

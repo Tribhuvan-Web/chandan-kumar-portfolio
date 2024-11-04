@@ -1,34 +1,46 @@
-import React from "react";
-
+import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { IoMdClose } from "react-icons/io";
 
-const Navbar = () => {
+export const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className={styles.navbar}>
-      <a href="/" className={styles.title}>
+      <a className={styles.title} href="/">
         Portfolio
       </a>
       <div className={styles.menu}>
-        <img
-          src={getImageUrl("nav/menuIcon.png")}
-          alt=""
+        <button
           className={styles.menuBtn}
-        />
-        <ul className={styles.menuItems}>
-          <li>
-            <a href="#about">Home</a>
-          </li>
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Menu Button"
+        >
+          {menuOpen ? (
+            <IoMdClose className={styles.icon} />
+          ) : (
+            <GiHamburgerMenu className={styles.icon} />
+          )}
+        </button>
+        <ul
+          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
+          onClick={() => setMenuOpen(false)}
+        >
           <li>
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#about">Contact us</a>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contactform">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
   );
 };
-
-export default Navbar;

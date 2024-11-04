@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -13,15 +12,16 @@ export const Hero = () => {
           NodeJS. Reach out if you'd like to learn more!
         </p>
         <a
-          href="mailto:chandankumar16052005@gmail.com "
+          href="/assets/skills/Resume.pdf"
+          download
           className={styles.contactBtn}
         >
-          Contact Me
+          Download Resume
         </a>
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
-        alt="Hero image of me"
+        alt="Chandan kumar"
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />
