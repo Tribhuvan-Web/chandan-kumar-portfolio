@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import { Hero } from "./components/Hero/Hero";
 import { Experience } from "./components/Experience/Experience";
 import { About } from "./components/About/About";
-import { Contact } from "./components/Contact/Contact";
+import ContactForm from "./components/Contact/ContactForm";
 
 const App = () => {
   return (
@@ -13,6 +13,7 @@ const App = () => {
       <Hero />
       <Experience />
       <About />
+      <ContactForm />
     </div>
   );
 };

@@ -10,7 +10,7 @@ export const About = () => {
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutImage.png")}
-          alt="Me sitting with a laptop"
+          alt="Chandan kumar"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
@@ -46,6 +46,7 @@ export const About = () => {
           </li>
         </ul>
       </div>
+      <hr />
     </section>
   );
 };
