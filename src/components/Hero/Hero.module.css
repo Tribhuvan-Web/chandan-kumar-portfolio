@@ -20,9 +20,9 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: 54px;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 20px;
   font-family: var(--font-roboto);
   background: linear-gradient(90deg,
       rgba(255, 255, 255, 1) 70%,
@@ -49,7 +49,8 @@
 }
 
 .heroImg {
-  width: 40%; /*changed*/
+  width: 40%;
+  /*changed*/
   z-index: 1;
   border-radius: 50%;
   box-shadow: 5px 5px 5px 5px rgb(1, 75, 94);
