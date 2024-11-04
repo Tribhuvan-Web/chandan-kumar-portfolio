@@ -1,14 +1,10 @@
 :root {
-    --color-text: #d1e8e2;
-    /* Soft turquoise for text */
-    --color-primary: #ff6f61;
-    /* Vivid coral for primary elements */
-    --color-secondary: #3a506b;
-    /* Deep ocean blue for secondary elements */
-    --color-dark: #1c2541;
-    /* Midnight blue for dark elements */
-    --color-bg: #0b132b;
-    /* Dark navy for background */
 
+
+    --color-text: #f8f8ff;
+    --color-primary: #09929b;
+    --color-secondary: hsl(173, 87%, 18%);
+    --color-dark: #0b2447;
+    --color-bg: teal;
     --font-robot: "Roboto";
 }
