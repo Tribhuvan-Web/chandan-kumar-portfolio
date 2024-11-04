@@ -12,8 +12,10 @@ export const Hero = () => {
           NodeJS. Reach out if you'd like to learn more!
         </p>
         <a
-          href="/assets/Resume-Bzs8Nt7N.pdf"
+          href="/assets/skills/Resume-Bzs8Nt7N.pdf"
           download
+          target="_blank" // Open in a new tab
+          rel="noopener noreferrer" // Secure linking
           className={styles.contactBtn}
         >
           Download Resume
