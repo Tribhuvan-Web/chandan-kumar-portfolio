@@ -12,7 +12,7 @@ const Certificate = () => {
       <div className={`${styles.certificates} w-4/5 mx-auto`}>
         <div className={`${styles.item} flex flex-col items-center`}>
           <img
-            src="public/certificates/Cosmology (Quantum & Particle Physics).jpg"
+            src="/certificates/Cosmology (Quantum & Particle Physics).jpg"
             alt=""
             className="rounded-xl w-full mb-4"
           />
@@ -28,7 +28,7 @@ const Certificate = () => {
         <div className={`${styles.item} flex flex-col items-center`}>
           <img
             className="rounded-xl w-full mb-4"
-            src="public/certificates/Certificate on Google Analytics.jpg"
+            src="/certificates/Certificate on Google Analytics.jpg"
             alt=""
           />
           <p>
@@ -44,7 +44,7 @@ const Certificate = () => {
 
         <div className={styles.item}>
           <img
-            src="public/certificates/The Evolving Universe CalTech S. George Djorgo.jpg"
+            src="/certificates/The Evolving Universe CalTech S. George Djorgo.jpg"
             alt=""
             className="rounded-xl"
           />
@@ -60,7 +60,7 @@ const Certificate = () => {
         <div className={styles.item}>
           <img
             className="rounded-xl"
-            src="public/certificates/MIT Quantum Physics II (Barton Zwiebach).jpg"
+            src="/certificates/MIT Quantum Physics II (Barton Zwiebach).jpg"
             alt=""
           />
           <p>
@@ -75,7 +75,7 @@ const Certificate = () => {
         <div className={styles.item}>
           <img
             className="rounded-xl"
-            src="public/certificates/MIT Psychology Certificate (Frank Schilbach).jpg"
+            src="/certificates/MIT Psychology Certificate (Frank Schilbach).jpg"
             alt=""
           />
           <p>
@@ -92,7 +92,7 @@ const Certificate = () => {
         <div className={styles.item}>
           <img
             className="rounded-xl"
-            src="public/certificates/MIT Physics III Vibrations, Waves Walter Lewin.jpg"
+            src="/certificates/MIT Physics III Vibrations, Waves Walter Lewin.jpg"
             alt=""
           />
           <p>
@@ -107,7 +107,7 @@ const Certificate = () => {
         <div className={styles.item}>
           <img
             className="rounded-xl"
-            src="public/certificates/Mindluster Physics Certificate.jpg"
+            src="/certificates/Mindluster Physics Certificate.jpg"
             alt=""
           />
           <p>
@@ -122,7 +122,7 @@ const Certificate = () => {
         <div className={styles.item}>
           <img
             className="rounded-xl"
-            src="public/certificates/Mindluster Astronomy Certificate.jpg"
+            src="/certificates/Mindluster Astronomy Certificate.jpg"
             alt=""
           />
           <p>
@@ -137,7 +137,7 @@ const Certificate = () => {
         <div className={styles.item}>
           <img
             className="rounded-xl"
-            src="public/certificates/Linear Algebra for Computer Scientist's.jpg"
+            src="/certificates/Linear Algebra for Computer Scientist's.jpg"
             alt=""
           />
           <p>
@@ -152,7 +152,7 @@ const Certificate = () => {
         <div className={`${styles.item} flex flex-col items-center`}>
           <img
             className="rounded-xl w-full mb-4"
-            src="public/certificates/''ISRO START Programme'' Certificate.jpg"
+            src="/certificates/''ISRO START Programme'' Certificate.jpg"
             alt=""
           />
           <p>
@@ -167,7 +167,7 @@ const Certificate = () => {
         <div className={`${styles.item} flex flex-col items-center`}>
           <img
             className="rounded-xl w-full mb-4"
-            src="public/certificates/''Astrophysics Certificate'' IIT Madras_page-0001.jpg"
+            src="/certificates/''Astrophysics Certificate'' IIT Madras_page-0001.jpg"
             alt=""
           />
           <p>
@@ -183,7 +183,7 @@ const Certificate = () => {
         <div className={`${styles.item} flex flex-col items-center`}>
           <img
             className="rounded-xl w-full mb-4"
-            src="public/certificates/''Hydro-Meteorological Disaster'' ISRO Certi.jpg"
+            src="/certificates/''Hydro-Meteorological Disaster'' ISRO Certi.jpg"
             alt=""
           />
           <p>

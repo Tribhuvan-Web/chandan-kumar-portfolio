@@ -7,7 +7,7 @@ const ContactForm = () => {
   return (
     <>
       <footer
-        className="text-white p-4 pt-5 mt-12 bg-teal-950 rounded-xl"
+        className="text-white p-4 pt-5 mt-12 bg-teal-900"
         id="contactform"
       >
         <hr className="mb-3" />
