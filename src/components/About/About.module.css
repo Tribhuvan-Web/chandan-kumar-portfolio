@@ -17,6 +17,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+ 
 }
 
 .content {
@@ -36,7 +37,7 @@
   gap: 50px;
 }
 
-.aboutItem {
+.aboutItem{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -66,11 +67,36 @@
   font-size: 25px;
 }
 
+.certificates .item {
+  display: grid;
+  grid-template-areas: "a1 a2";
+  grid-gap: 20px;
+  padding: 20px;
+  align-items: center;
+}
+.certificates .item p{
+  
+}
+
+.certificates .item:nth-child(even) img {
+  grid-area: a2;
+  justify-self: center;
+}
+
+@media (max-width: 480px) {
+  .certificates .item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 830px) {
   .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    background-color: rgba(12, 12, 12, 0.078);
+    text-align: center;
+    margin-top: 50px;
+   padding: 5px;
+
   }
 
   .content {
@@ -88,5 +114,10 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+  }
+  .certificates .item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
 }
