@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./App.Module.css";
+import styles from "./App.module.css";
 import { Hero } from "./components/Hero/Hero";
 import { Experience } from "./components/Experience/Experience";
 import ContactForm from "./components/Contact/ContactForm";
