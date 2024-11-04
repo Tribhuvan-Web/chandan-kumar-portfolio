@@ -46,10 +46,10 @@ export const Experience = () => {
                 </p>
                 <div className="flex items-center justify-center">
                   <a
-                    download="Resume.pdf"
-                    href="/files/Resume.pdf"
+                    download="internship.pdf"
+                    href="/files/internship.pdf"
+                    aria-label="Download Letter"
                     className="font-semibold flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg rounded-full py-4 px-5 shadow-lg text-center bg-white text-black hover:bg-black hover:text-white duration-500"
-                    aria-label="Download Resume"
                   >
                     <span className="text-sm sm:text-lg duration-100">
                       Download Letter
