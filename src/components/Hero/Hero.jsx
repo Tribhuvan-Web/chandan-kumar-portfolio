@@ -5,7 +5,7 @@ import { getImageUrl } from "../../utils";
 export const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/skills/Resume-Bzs8Nt7N.pdf";
+    link.href = "/assets/Resume-Bzs8Nt7N.pdf";
     link.download = "Resume-Bzs8Nt7N.pdf";
     link.click();
   };
