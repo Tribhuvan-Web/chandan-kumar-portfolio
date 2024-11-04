@@ -6,9 +6,13 @@ import { SiGmail } from "react-icons/si";
 const ContactForm = () => {
   return (
     <>
-      <footer className=" text-white p-4 mt-8">
-        <div className="container mx-auto text-center">
-          <h2 className="text-xl font-bold mb-4">Contact Me</h2>
+      <footer
+        className="text-white p-4 mt-8 bg-teal-950 rounded-xl"
+        id="contactform"
+      >
+        <hr className="mb-3" />
+        <div className="container mx-auto text-center font-sans">
+          <h2 className="text-2xl font-bold mb-4 font-sans">Contact Me</h2>
           <div className="flex justify-center space-x-6 mb-4">
             <a
               href="https://wa.me/+916206669081"
@@ -19,7 +23,7 @@ const ContactForm = () => {
               <FaWhatsapp className="text-3xl" />
             </a>
             <a
-              href="https://wa.me/+916206669081"
+              href="mailto:chandankumar16052005@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-300"
@@ -52,9 +56,8 @@ const ContactForm = () => {
               <FaThreads className="text-3xl" />
             </a>
           </div>
-          <p className="text-lg">
-            Feel free to reach out to me via any of the above platforms. Looking
-            forward to connecting with you!
+          <p className="text-2xl font-sans desktop-text-right mobile-text-center">
+            Feel free to reach out to me via any of the above platforms.
           </p>
         </div>
       </footer>
