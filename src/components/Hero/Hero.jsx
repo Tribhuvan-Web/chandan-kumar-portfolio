@@ -17,15 +17,13 @@ export const Hero = () => {
           href="/files/Resume.pdf"
           aria-label="Download Resume"
         >
-          <span className={styles.downloadBtn}>
-            Download Resume
-          </span>
+          <span className={styles.downloadBtn}>Download Resume</span>
         </a>
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
         alt="Chandan kumar"
-        className={styles.heroImg}
+        className={`${styles.heroImg}`}
       />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />

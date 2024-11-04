@@ -21,15 +21,11 @@
 }
 
 .title {
-  font-size: 54px;
+  font-size: 3rem;
   font-weight: 900;
   margin-bottom: 20px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -51,16 +47,17 @@
   box-shadow: 0px 8px 8px 2px rgba(0, 0, 0, 0.25);
   text-align: center;
 }
+
 .downloadBtn:hover {
   animation-duration: 500ms;
   background-color: rgb(5, 36, 36);
 }
 
 .heroImg {
-  width: 40%;
-  /*changed*/
+  width: 30%;
   z-index: 1;
   border-radius: 50%;
+  margin-bottom: 2%;
   box-shadow: 5px 5px 5px 5px rgb(1, 75, 94);
   animation-name: floating;
   height: 60%;
@@ -96,27 +93,21 @@
   filter: blur(100px);
   z-index: 0;
 }
-/* 
-.bottomBlur {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: rgb(7, 154, 154);
-  filter: blur(100px);
-  z-index: 0;
-} */
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   .content {
     align-items: center;
+    text-align: center;
+  }
+
+  .heroImg {
+    width: 80%;
+    height: auto;
+    margin-bottom: 16px;
   }
 }

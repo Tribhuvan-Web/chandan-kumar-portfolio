@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
+    padding-top: 20px;
     z-index: 2;
     margin: 0 10%;
 }
@@ -32,7 +32,7 @@
 
 .menuItems {
     display: flex;
-    gap: 47px;
+    gap: 35px;
     list-style: none;
 }
 
