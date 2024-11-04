@@ -3,8 +3,8 @@ import styles from "./App.Module.css";
 import Navbar from "./components/Navbar/Navbar";
 import { Hero } from "./components/Hero/Hero";
 import { Experience } from "./components/Experience/Experience";
-import { About } from "./components/About/About";
 import ContactForm from "./components/Contact/ContactForm";
+import Abouts from "./components/About/About";
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Experience />
-      <About />
+      <Abouts />
       <ContactForm />
     </div>
   );
