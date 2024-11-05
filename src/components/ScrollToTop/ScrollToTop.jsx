@@ -32,7 +32,8 @@ const ScrollToTop = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="p-3 font-extrabold bg-blue-500 text-white rounded-full shadow-lg hover:bg-indigo-800 transition duration-300"
+          className="p-3 font-extrabold bg-gradient-to-br shadow-lg text-white rounded-full hover:bg-indigo-800 transition duration-300"
+          style={{ boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.4)' }}
         >
           <FaArrowUp className="text-xl" />
         </button>

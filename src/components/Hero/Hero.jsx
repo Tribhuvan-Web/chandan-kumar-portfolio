@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Chandan kumar</h1>
         <p className={styles.description}>
-          <span className="text-3xl text-teal-100 font-serif">A</span> dedicated
+          <span className="text-3xl text-teal-100 text-start font-serif">A</span> dedicated
           astrophysicist driven by a profound fascination with the cosmos and
           embarking on a journey to unravel the mysteries of the universe.
         </p>

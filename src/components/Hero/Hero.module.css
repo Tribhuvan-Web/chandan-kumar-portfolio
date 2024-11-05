@@ -28,12 +28,14 @@
   background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  text-align: start;
 }
 
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  text-align: start;
 }
 
 .downloadBtn {
@@ -82,10 +84,10 @@
 
 .topBlur {
   position: absolute;
-  width: 50vw;
-  height: 50vw;
+  width: 60vw;
+  height: 40vw;
   min-width: 350px;
-  min-width: 350px;
+  min-height: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
@@ -109,5 +111,10 @@
     width: 80%;
     height: auto;
     margin-bottom: 16px;
+  }
+  .topBlur{
+    display: absolute;
+    top: 35vh;
+    height: 65vh;
   }
 }

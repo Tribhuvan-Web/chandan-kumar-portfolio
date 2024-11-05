@@ -3,12 +3,13 @@ import styles from "./About.module.css";
 
 const Certificate = () => {
   return (
-    <div id="certificate" className="flex flex-col items-center">
-      <div className="flex text-center justify-center items-center mt-3 text-3xl font-mono text-white">
-        Certificates
+    <>
+      <div id="certificate" className="flex flex-col items-center mt-2">
+        <div className="flex text-center justify-center items-center mt-3 text-3xl font-mono text-white">
+          Certificates
+        </div>
       </div>
-      <hr class="my-8 border-t-2 border-gray-300 dark:border-gray-600 w-4/5 sm:w-full mx-auto" />
-
+          <hr class="my-8 border-t-2 border-white dark:border-white w-9/10 m-auto " />
       <div className={`${styles.certificates} w-4/5 mx-auto`}>
         <div className={`${styles.item} flex flex-col items-center`}>
           <img
@@ -171,13 +172,12 @@ const Certificate = () => {
             alt=""
           />
           <p>
-            Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Atque blanditiis dolorum doloremque
-            sequi eum, dolor tempora dignissimos amet quae nemo, fugiat iste,
-            natus non. Distinctio nesciunt obcaecati odit quis? Voluptatibus
-            dolores porro, illum blanditiis tempora, culpa placeat voluptas
-            adipisci ratione aspernatur, accusantium unde veniam. Quas corrupti
-            error eligendi omnis facilis. adipisicing elit...
+            I earned a certificate from IIT Madras for completing an online
+            course on Astrophysics. This course deepened my understanding of
+            cosmology, stellar evolution, and the structure of galaxies. It
+            enhanced my analytical skills, provided insights into complex space
+            phenomena, and encouraged me to further explore the mysteries of our
+            universe.
           </p>
         </div>
         <div className={`${styles.item} flex flex-col items-center`}>
@@ -195,7 +195,7 @@ const Certificate = () => {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

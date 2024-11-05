@@ -11,20 +11,20 @@ export const AboutDesktop = () => {
         id="about"
       >
         <h2 className="text-4xl font-bold text-center mb-8">About</h2>
-        <div className="flex flex-col lg:flex-row-reverse items-center justify-center max-w-4xl mx-auto w-4/5">
+        <div className="flex flex-col lg:flex-row-reverse items-center justify-center mx-auto ">
           <img
             src={getImageUrl("about/aboutImage.png")}
             alt="Chandan Kumar"
             className="w-64 h-64 rounded-full shadow-lg mb-6 lg:mb-0 lg:ml-8"
           />
-          <div className="text-lg text-left">
+          <div className="text-lg w-dvw text-left">
             <p className="font-mono text-3xl">I'M Chandan kumar</p>
-            <p className="font-mono text-2xl text-indigo-100">
+            <p className="font-mono text-2xl text-black">
               Aspiring Astrophysicist
             </p>
-            <hr className="my-4 border-t-2 border-indigo-100 w-3/4 mx-auto lg:mx-0" />
-            <p className="font-mono text-xl">LET ME INTRODUCE MYSELF</p>
-            <p className="mt-4 text-white">
+            <hr className="my-4 border-t-2 border-indigo-100 w-3/4 lg:mx-0" />
+            <p className="font-mono text-xl text-pink-200 font-semibold">LET ME INTRODUCE MYSELF</p>
+            <p className="mt-4 text-black">
               Hi Everyone, I’m Chandan kumar from Patna, India. I recently
               completed my schooling and have dedicated my academic journey to
               exploring the mysteries of space. My passion for astrophysics
@@ -37,30 +37,30 @@ export const AboutDesktop = () => {
             </p>
           </div>
         </div>
-        <div className="border border-indigo-100 p-4 mt-8 max-w-4xl mx-auto w-4/5">
-          <p className="font-mono text-xl text-center text-indigo-100 mb-4">
+        <div className="border border-indigo-100 p-4 mt-8 ">
+          <p className="font-mono text-xl text-center font-bold text-red-100 mb-4">
             Beyond my academic pursuits, here are some activities I enjoy:
           </p>
-          <ul className="list-disc list-inside mt-4 text-white">
+          <ul className="list-disc list-inside mt-4 text-black">
             <li className="mb-2">
-              <span className="font-bold text-indigo-100">
+              <span className="font-bold text-black">
                 Astronomy Observation
               </span>{" "}
               – Stargazing is more than a hobby; it's a constant reminder of why
               I’m passionate about space science.
             </li>
             <li className="mb-2">
-              <span className="font-bold text-indigo-100">Reading Sci-Fi</span>{" "}
+              <span className="font-bold text-black">Reading Sci-Fi</span>{" "}
               – Books like <i>A Brief History of Time</i> and{" "}
               <i>The Theory of Everything</i> fuel my curiosity and imagination.
             </li>
             <li className="mb-2">
-              <span className="font-bold text-indigo-100">Volunteering</span> –
+              <span className="font-bold text-black">Volunteering</span> –
               I enjoy engaging in community activities, helping with education,
               and supporting local initiatives.
             </li>
             <li className="mb-2">
-              <span className="font-bold text-indigo-100">
+              <span className="font-bold text-black">
                 Exploring Local Culture
               </span>{" "}
               – Traveling and learning about my heritage keeps me grounded and
@@ -68,7 +68,7 @@ export const AboutDesktop = () => {
             </li>
           </ul>
         </div>
-        <hr className="my-8 border-t-2 border-indigo-100 w-4/5 mx-auto" />
+    
       </section>
       <Certificate />
     </>

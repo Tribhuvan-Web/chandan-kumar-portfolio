@@ -31,7 +31,7 @@ export const Experience = () => {
                 <h3 className="text-2xl font-semibold mb-4 text-white">
                   {skill.title}
                 </h3>
-                <p className="text-xl text-gray-200">
+                <p className="text-xl text-gray-200 text-start">
                   During my 45-day online internship in Astrophysics and
                   Cosmology with IIT Madras, I conducted theoretical research
                   and completed a research paper on astrophysical and
@@ -49,7 +49,7 @@ export const Experience = () => {
                     download="internship.pdf"
                     href="/files/internship.pdf"
                     aria-label="Download Letter"
-                    className="font-semibold flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg rounded-full py-4 px-5 shadow-lg text-center bg-white text-black hover:bg-black hover:text-white duration-500"
+                    className="font-semibold flex justify-center items-center w-36 sm:w-48 mt-8 mb-6 sm:mb-0 text-lg rounded-full py-4 px-5 shadow-lg text-center bg-white text-black hover:bg-black hover:text-white duration-500"
                   >
                     <span className="text-sm sm:text-lg duration-100">
                       Download Letter
