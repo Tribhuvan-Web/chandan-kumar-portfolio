@@ -6,10 +6,10 @@ export const Experience = () => {
   return (
     <>
       <section
-        className="px-4 sm:px-8 py-2 sm:py-12  w-full bg-gray-900"
+        className="px-4 sm:px-8 py-2 sm:py-12 w-full bg-gray-900"
         id="experience"
       >
-        <h2 className="text-4xl font-extrabold mb-12 text-center text-white">
+        <h2 className="text-4xl font-extrabold mb-12 mt-2 text-center text-white">
           Experience
         </h2>
         <div className="flex flex-col w-full gap-8">

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./About.module.css";
-import { getImageUrl } from "../../utils";
 import Certificate from "./Certificate";
 
 export const AboutDesktop = () => {

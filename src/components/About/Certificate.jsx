@@ -63,12 +63,12 @@ const Certificate = () => {
             className="rounded-xl"
           />
           <p>
-            I completed Caltech's non-credit online course, The Evolving
-            Universe, on Coursera. This course explored the formation of stars,
-            galaxies, and cosmic evolution, giving me a strong foundation in
-            astrophysics concepts. Earning the certificate enriched my
-            understanding of the universe’s history and strengthened my passion
-            for exploring cosmic mysteries.
+            I completed Caltech's non-credit online course The Evolving Universe
+            on Coursera. This course explored the formation of stars, galaxies,
+            and cosmic evolution, giving me a strong foundation in astrophysics
+            concepts. Earning the certificate enriched my understanding of the
+            universe's history and strengthened my passion for exploring
+            cosmic mysteries.
           </p>
         </div>
         <div className={`${styles.item} flex flex-col items-center`}>
