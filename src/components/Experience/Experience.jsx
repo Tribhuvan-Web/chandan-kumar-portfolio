@@ -44,18 +44,30 @@ export const Experience = () => {
                   discipline required for independent study while collaborating
                   effectively in a digital setting.
                 </p>
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center mb-4">
                   <a
                     download="internship.pdf"
                     href="/files/internship.pdf"
                     aria-label="Download Letter"
                     className="font-semibold flex justify-center items-center w-36 sm:w-48 mt-8 mb-6 sm:mb-0 text-lg rounded-full py-4 px-5 shadow-lg text-center bg-white text-black hover:bg-black hover:text-white duration-500"
                   >
-                    <span className="text-sm sm:text-lg duration-100">
+                    <span className="text-sm sm:text-lgduration-100">
                       Download Letter
                     </span>
                   </a>
                 </div>
+                <h1 className="text-white text-2xl font-semibold mb-4">
+                  National Space Science Symposium (NSSS), 2024
+                </h1>
+                <p className="text-white text-xl text-start mb-4">
+                  I was invited to NSSS 2024 after scoring an A+ in ISRO's START
+                  training program, ranking in the top five candidates. At the
+                  symposium in Feb, 2024 at Goa University, I presented a
+                  presentation on advancements in space exploration. The
+                  experience included engaging discussions and workshops,
+                  deepening my understanding of astrophysics and inspiring my
+                  future career in space science.
+                </p>
               </div>
             </div>
           ))}

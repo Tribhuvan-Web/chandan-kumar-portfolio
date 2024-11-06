@@ -6,43 +6,56 @@ const Certificate = () => {
     <>
       <div id="certificate" className="flex flex-col items-center mt-2">
         <div className="flex text-center justify-center items-center mt-3 text-3xl font-mono text-white">
-          Certificates
+          Honors
         </div>
       </div>
-          <hr class="my-8 border-t-2 border-white dark:border-white w-9/10 m-auto " />
+      <hr class="my-8 border-t-2 border-white dark:border-white w-9/10 m-auto " />
       <div className={`${styles.certificates} w-4/5 mx-auto`}>
         <div className={`${styles.item} flex flex-col items-center`}>
           <img
-            src="/certificates/Cosmology (Quantum & Particle Physics).jpg"
-            alt=""
             className="rounded-xl w-full mb-4"
+            src="/certificates/''ISRO START Programme'' Certificate.jpg"
+            alt=""
           />
           <p>
-            I completed an online course in Cosmology, focusing on quantum and
-            particle physics, through Mindluster.com. The course deepened my
-            understanding of the universe's structure, the Big Bang theory, and
-            cosmic microwave background radiation. I also explored the
-            fundamental particles and forces that govern the universe, enriching
-            my knowledge in astrophysics.
+            In the ISRO START Programme, I gained hands-on experience in space
+            science , working with expert guidance from ISRO scientist's. I
+            ranked in the top 5 on the final exam, received a certificate of
+            achievement, and attended NSSS 2024, presenting a conference paper
+            on Space Science.
           </p>
         </div>
         <div className={`${styles.item} flex flex-col items-center`}>
           <img
             className="rounded-xl w-full mb-4"
-            src="/certificates/Certificate on Google Analytics.jpg"
+            src="/certificates/''Hydro-Meteorological Disaster'' ISRO Certi.jpg"
             alt=""
           />
           <p>
-            I completed a Google Analytics online course through the Great
-            Learning app, earning a certification for my efforts. This course
-            taught me how to track and analyze website traffic, understand user
-            behavior, and measure the effectiveness of marketing campaigns. I
-            also learned to create detailed reports, enabling data-driven
-            decision-making for optimizing online strategies and enhancing user
-            experiences.
+            I completed the IIRS ISRO Massive Open Online Course on Advances in
+            Geospatial Techniques for Monitoring and Modelling
+            Hydro-Meteorological Disasters. I gained insights into mapping
+            flood-prone areas, modeling climate impacts, and utilizing remote
+            sensing for disaster preparedness. This experience enhanced my
+            technical skills and deepened my understanding of geospatial
+            applications in hydro-meteorology.
           </p>
         </div>
-
+        <div className={`${styles.item} flex flex-col items-center`}>
+          <img
+            className="rounded-xl w-full mb-4"
+            src="/certificates/''Astrophysics Certificate'' IIT Madras_page-0001.jpg"
+            alt=""
+          />
+          <p>
+            I earned a certificate from IIT Madras for completing an online
+            course on Astrophysics. This course deepened my understanding of
+            cosmology, stellar evolution, and the structure of galaxies. It
+            enhanced my analytical skills, provided insights into complex space
+            phenomena, and encouraged me to further explore the mysteries of our
+            universe.
+          </p>
+        </div>
         <div className={styles.item}>
           <img
             src="/certificates/The Evolving Universe CalTech S. George Djorgo.jpg"
@@ -58,6 +71,21 @@ const Certificate = () => {
             for exploring cosmic mysteries.
           </p>
         </div>
+        <div className={`${styles.item} flex flex-col items-center`}>
+          <img
+            src="/certificates/Cosmology (Quantum & Particle Physics).jpg"
+            alt=""
+            className="rounded-xl w-full mb-4"
+          />
+          <p>
+            I completed an online course in Cosmology, focusing on quantum and
+            particle physics, through Mindluster.com. The course deepened my
+            understanding of the universe's structure, the Big Bang theory, and
+            cosmic microwave background radiation. I also explored the
+            fundamental particles and forces that govern the universe, enriching
+            my knowledge in astrophysics.
+          </p>
+        </div>
         <div className={styles.item}>
           <img
             className="rounded-xl"
@@ -71,23 +99,6 @@ const Certificate = () => {
             wave-particle duality, quantum states, and operators. I gained
             valuable insights into the mathematical framework of quantum theory,
             enhancing my knowledge for future studies in physics.
-          </p>
-        </div>
-        <div className={styles.item}>
-          <img
-            className="rounded-xl"
-            src="/certificates/MIT Psychology Certificate (Frank Schilbach).jpg"
-            alt=""
-          />
-          <p>
-            I completed an online MIT Psychology course through Mindluster.com,
-            earning a certification for my efforts. The course explored various
-            psychological theories, cognitive processes, and behavioral
-            patterns. I learned about the impact of emotions, motivations, and
-            social interactions on human behavior. Additionally, I gained
-            insights into psychological research methods, enhancing my
-            understanding of how psychological principles can be applied to
-            various aspects of life.
           </p>
         </div>
         <div className={styles.item}>
@@ -150,48 +161,37 @@ const Certificate = () => {
             enhancing my analytical capabilities in computational fields.
           </p>
         </div>
-        <div className={`${styles.item} flex flex-col items-center`}>
+        <div className={styles.item}>
           <img
-            className="rounded-xl w-full mb-4"
-            src="/certificates/''ISRO START Programme'' Certificate.jpg"
+            className="rounded-xl"
+            src="/certificates/MIT Psychology Certificate (Frank Schilbach).jpg"
             alt=""
           />
           <p>
-            I was invited to NSSS 2024 after scoring an A+ in ISRO's START
-            training program, ranking in the top five candidates. At the
-            symposium in Feb, 2024 at Goa University, I presented a presentation
-            on advancements in space exploration. The experience included
-            engaging discussions and workshops, deepening my understanding of
-            astrophysics and inspiring my future career in space science.
+            I completed an online MIT Psychology course through Mindluster.com,
+            earning a certification for my efforts. The course explored various
+            psychological theories, cognitive processes, and behavioral
+            patterns. I learned about the impact of emotions, motivations, and
+            social interactions on human behavior. Additionally, I gained
+            insights into psychological research methods, enhancing my
+            understanding of how psychological principles can be applied to
+            various aspects of life.
           </p>
         </div>
         <div className={`${styles.item} flex flex-col items-center`}>
           <img
             className="rounded-xl w-full mb-4"
-            src="/certificates/''Astrophysics Certificate'' IIT Madras_page-0001.jpg"
+            src="/certificates/Certificate on Google Analytics.jpg"
             alt=""
           />
           <p>
-            I earned a certificate from IIT Madras for completing an online
-            course on Astrophysics. This course deepened my understanding of
-            cosmology, stellar evolution, and the structure of galaxies. It
-            enhanced my analytical skills, provided insights into complex space
-            phenomena, and encouraged me to further explore the mysteries of our
-            universe.
-          </p>
-        </div>
-        <div className={`${styles.item} flex flex-col items-center`}>
-          <img
-            className="rounded-xl w-full mb-4"
-            src="/certificates/''Hydro-Meteorological Disaster'' ISRO Certi.jpg"
-            alt=""
-          />
-          <p>
-            In the ISRO START Programme, I gained hands-on experience in space
-            science , working with expert guidance from ISRO scientist's. I
-            ranked in the top 5 on the final exam, received a certificate of
-            achievement, and attended NSSS 2024, presenting a conference paper
-            on Space Science
+            I completed a Google Analytics online course through the Great
+            Learning app, earning a certification for my efforts. This course
+            taught me how to track and analyze website traffic, understand user
+            behavior, and measure the effectiveness of marketing campaigns. I
+            also learned to create detailed reports, enabling data-driven
+            decision-making for optimizing online strategies and enhancing user
+            experiences.
           </p>
         </div>
       </div>
