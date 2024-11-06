@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
 import Certificate from "./Certificate";
+import { Experience } from "../Experience/Experience";
 
 export const AboutDesktop = () => {
   return (
@@ -61,6 +62,7 @@ export const AboutDesktop = () => {
           </ul>
         </div>
       </section>
+      <Experience />
       <Certificate />
     </>
   );

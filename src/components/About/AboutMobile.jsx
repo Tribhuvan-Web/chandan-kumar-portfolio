@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
 import Certificate from "./Certificate";
+import { Experience } from "../Experience/Experience";
 
 export const AboutMobile = () => {
   return (
@@ -63,6 +64,7 @@ export const AboutMobile = () => {
         </div>
         <hr className="my-8 border-t-2 border-indigo-100 w-4/5 mx-auto" />
       </section>
+      <Experience />
       <Certificate />
     </>
   );
