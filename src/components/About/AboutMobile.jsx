@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./About.module.css";
 import Certificate from "./Certificate";
 import { Experience } from "../Experience/Experience";
+import DownloadResume from "../Hero/DownloadResume";
 
 export const AboutMobile = () => {
   return (
@@ -10,7 +11,7 @@ export const AboutMobile = () => {
         className={`${styles.container} py-16 bg-white text-white`}
         id="about"
       >
-        <h2 className="text-4xl font-bold text-center mb-2 mt-8 font-mono">
+        <h2 className="text-4xl font-bold text-center mb-2 mt-4 font-mono">
           ABOUT ME
         </h2>
         <div className="flex flex-col lg:flex-row-reverse items-center justify-center max-w-4xl mx-auto w-4/5">
@@ -61,6 +62,9 @@ export const AboutMobile = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="flex justify-center items-center mt-3">
+          <DownloadResume />
         </div>
         <hr className="my-8 border-t-2 border-indigo-100 w-4/5 mx-auto" />
       </section>

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./About.module.css";
 import Certificate from "./Certificate";
 import { Experience } from "../Experience/Experience";
+import DownloadResume from "../Hero/DownloadResume";
 
 export const AboutDesktop = () => {
   return (
@@ -60,6 +61,9 @@ export const AboutDesktop = () => {
               inspired.
             </li>
           </ul>
+        </div>
+        <div className="flex justify-center items-center mt-7">
+          <DownloadResume />
         </div>
       </section>
       <Experience />

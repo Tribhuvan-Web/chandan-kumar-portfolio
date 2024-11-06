@@ -21,8 +21,6 @@ export const Hero = () => {
           the cosmos and embarking on a journey to unravel the mysteries of the
           universe.
         </p>
-
-        <DownloadResume />
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
