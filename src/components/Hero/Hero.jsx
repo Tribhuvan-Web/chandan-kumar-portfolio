@@ -14,10 +14,10 @@ export const Hero = () => {
           (Chet Narayan)
         </h1>
         <p className={styles.description}>
-          <span className="text-2xl text-teal-100 text-start font-serif">
+          <span className="text-4xl text-teal-100 text-start font-serif">
             An
           </span>
-          &nbsp; Aspiring astrophysicist driven by a profound fascination with
+          &nbsp;Aspiring astrophysicist driven by a profound fascination with
           the cosmos and embarking on a journey to unravel the mysteries of the
           universe.
         </p>
