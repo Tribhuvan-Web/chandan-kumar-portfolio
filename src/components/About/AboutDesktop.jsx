@@ -23,11 +23,12 @@ export const AboutDesktop = () => {
               completed my schooling and have dedicated my academic journey to
               exploring the mysteries of space. My passion for astrophysics
               began at a young age when I witnessed a rocket crossing the sky
-              with my grandfather, sparking my dream to understand the cosmos.
-              Over the years, I've pursued numerous courses and internships in
-              astrophysics and space science, including certifications from ISRO
-              and Caltech. With a strong interest in physics, I’m now preparing
-              to take the next step towards a career in astrophysics.
+              with my maternal grandfather, sparking my dream to understand the
+              cosmos. Over the years, I've pursued numerous courses and
+              internships in astrophysics and space science, including
+              certifications from ISRO and Caltech. With a strong interest in
+              physics, I’m now preparing to take the next step towards a career
+              in astrophysics.
             </p>
           </div>
         </div>
