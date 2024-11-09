@@ -194,6 +194,27 @@ const Certificate = () => {
             experiences.
           </p>
         </div>
+        <div className={`${styles.item} flex flex-col items-center`}>
+          <img
+            className="rounded-xl w-full mb-4"
+            src="/certificates/BSDM Certificate_page-0001.jpg"
+            alt=""
+          />
+          <p>
+            During the BS-CFA (Bihar State-Certificate in Financial Accounting)
+            course, I developed essential skills in financial accounting under
+            the Bihar Skill Development Mission (BSDM). The program covered
+            various aspects of financial management, bookkeeping, and accounting
+            principles, enhancing my understanding of financial transactions,
+            ledger management, and account reconciliation. Through practical
+            exercises, I gained proficiency in handling accounting software and
+            learned to interpret financial statements accurately. This
+            certificate, awarded by the State Council for Vocational Training
+            (SCVT) and BSDM, validates my expertise in financial accounting,
+            equipping me with valuable skills to pursue career opportunities in
+            finance and accounting.
+          </p>
+        </div>
       </div>
     </>
   );
